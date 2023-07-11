@@ -1,1 +1,0 @@
-[Мой проект на GitHub]: git@github.com:AviatorLed/ono-tebe-nado.git
