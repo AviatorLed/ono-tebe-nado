@@ -25,35 +25,33 @@
         </ul>
       </nav>
       <a class="header__logo">
-        <img
-          class="header__logo-image"
-          src="./images/logo.png"
-          alt="Лого"
-        />
+        <img class="header__logo-image" src="./images/logo.png" alt="Лого" />
       </a>
-      <address class="header__address">
-        <a class="header__address-phone" href="tel:+99995555555"
-          >+9 999 555 5555</a
-        >
-        <a class="header__address-mail" href="mailto:info@sobaka.ge"
-          >info@sobaka.ge</a
-        >
-        <p class="header__address-address">
-          наб. Принсенграхт 263-265,<br />
-          Амстердам
-        </p>
-      </address>
+      <div class="header__wrapper">
+        <address class="header__address">
+          <a class="header__address-phone" href="tel:+99995555555"
+            >+9 999 555 5555</a
+          >
+          <a class="header__address-mail" href="mailto:info@sobaka.ge"
+            >info@sobaka.ge</a
+          >
+          <p class="header__address-address">
+            наб. Принсенграхт 263-265,<br />
+            Амстердам
+          </p>
+        </address>
+      </div>
     </header>
     <main class="content">
       <section id="cover" class="content-section content-section-cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
           <span class="cover__title-aligned-text"
-            >О<span class="cover__title-letter-spacing-extended">но</span></span
+            >Он<span class="cover__title-letter-spacing-extended">о</span></span
           >
           <span class="cover__title-aligned-text_center"
-            >те<span class="cover__title-letter-spacing-extended"
-              >бе</span
+            >теб<span class="cover__title-letter-spacing-extended"
+              >е</span
             ></span
           >
           <span class="cover__title-aligned-text_right"
@@ -63,12 +61,18 @@
             ></span
           >
         </h1>
-        <div class="cover__description">
-          <p class="cover__description-text">
-            Аукцион вещей, в которые никто не верил
-          </p>
-          <button class="bet-button" type="button">Сделать ставку</button>
-        </div>
+        <section id="cover" class="content-section content-section-bet">
+          <div class="cover__description">
+            <p class="cover__description-text">
+              Аукцион вещей, в
+              <span class="cover__description-text__expand"
+                >которые никто не</span
+              >
+              верил
+            </p>
+            <button class="bet-button" type="button">Сделать ставку</button>
+          </div>
+        </section>
       </section>
       <section id="lots" class="content-section content-section-lots">
         <h2 class="lots__heading">Лоты</h2>
