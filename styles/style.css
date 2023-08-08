@@ -55,7 +55,6 @@
 
 .header__logo-image {
   width: 148px;
-  /* height: 105px; */
   margin-left: -12px;
 }
 
@@ -191,6 +190,8 @@
   z-index: 2;
   color: rgba(256, 256, 256, 1);
   text-transform: uppercase;
+  padding-top: 128px;
+  max-width: 1440px;
 }
 
 .cover__description-text {
@@ -209,7 +210,6 @@
 .bet-button {
   cursor: pointer;
   width: auto;
-  /* height: 52px; */
   padding: 12px 32px;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid rgba(256, 256, 256, 1);
@@ -242,7 +242,7 @@
 .card {
   position: relative;
   width: 430px;
-  height: 450px;
+  min-height: 450px;
   padding: 50px 40px;
   color: rgba(256, 256, 256, 1);
   background-size: cover;
@@ -358,7 +358,6 @@
 }
 
 .footer__address {
-  /* height: 100%; */
   width: 240px;
   display: flex;
   flex-direction: column;
